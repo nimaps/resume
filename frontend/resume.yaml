@@ -1,0 +1,217 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Nima Parsa
+  headline: Senior React.js & Next.js Frontend Engineer
+  location: San Francisco, CA
+  email: nimaparsa.developer@gmail.com
+  phone: "+905395848405"
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: nima--parsa
+    - network: GitHub
+      username: nimaps
+  custom_connections:
+  sections:
+    summary:
+      - "Senior Frontend Engineer specializing in React.js and Next.js with 7+ years of experience building scalable, high-performance web applications. Proven expertise in modern JavaScript ecosystem, React hooks, state management, server-side rendering, and component architecture. Architected enterprise-grade design systems, optimized rendering performance through code-splitting and lazy loading, and built comprehensive test suites achieving 90%+ code coverage with Jest and React Testing Library."
+    experience:
+      - company: Husan Co.
+        position: Senior React/Next.js Frontend Engineer
+        date:
+        start_date: 2023-02
+        end_date: present
+        location: Remote
+        summary:
+        highlights:
+          - Architected robust component library and design system with React, TypeScript, and Storybook serving 50+ internal applications
+          - Developed and maintained 300,000+ lines of React/TypeScript code across multiple enterprise Next.js applications
+          - Established comprehensive testing culture with 5000+ test cases using Jest, React Testing Library, and Cypress
+          - Integrated Sentry error tracking with custom React error boundaries, decreasing bug resolution time by 60%
+          - Optimized build pipelines reducing bundle sizes by 40% through code-splitting, tree-shaking, and dynamic imports
+          - Built scalable SPAs and SSR applications with Next.js App Router serving millions of users with <1s page load times
+
+      - company: Husan Co.
+        position: React/Next.js Frontend Engineer
+        date:
+        start_date: 2021-02
+        end_date: 2023-01
+        location: Remote
+        summary:
+        highlights:
+          - Architected real-time data visualization dashboard using React, Redux Toolkit, and Chart.js with WebSocket integration
+          - Eliminated performance bottlenecks through React optimization techniques (useMemo, useCallback, React.memo, virtualization)
+          - Implemented comprehensive test-driven development with 90%+ code coverage using Jest and React Testing Library
+          - Designed and deployed video conferencing interface using WebRTC with React hooks and custom state management
+          - Migrated legacy jQuery application to Next.js, improving performance by 50% and reducing code complexity
+
+      - company: Lyons Global
+        position: React/Next.js Frontend Engineer
+        date:
+        start_date: 2021-05
+        end_date: 2023-01
+        location: United States - Remote
+        summary:
+        highlights:
+          - Developed LEO360® frontend using React and Next.js for comprehensive digital health platform
+          - Engineered secure, HIPAA-compliant medical interface with encrypted data handling and session management
+          - Built responsive PWA with Next.js featuring offline support, service workers, and optimistic UI updates
+          - Deployed applications across multiple international markets with Next.js internationalization (i18n) and RTL support
+
+      - company: Husan Co.
+        position: Frontend Developer
+        date:
+        start_date: 2019-09
+        end_date: 2021-01
+        location: Remote
+        summary:
+        highlights:
+          - Optimized React application to handle 400+ concurrent users using advanced memoization and state management patterns
+          - Implemented performance optimization strategies including code-splitting, lazy loading, and React Suspense
+          - Developed custom React hooks for authentication, form validation, and data fetching with error handling
+          - Built complex scheduling UI with React DnD, date-fns, and custom calendar components with timezone support
+
+    projects:
+      - name: "[Eiadati247](https://github.com/) - Telemedicine Platform"
+        date:
+        start_date: 2023-01
+        end_date: present
+        location:
+        summary: Next.js-based telemedicine platform with real-time video conferencing
+        highlights:
+          - Executed seamless migration from Create React App to Next.js 14 with App Router and React Server Components
+          - Refactored 20,000+ lines of React code implementing performance optimizations and eliminating unnecessary re-renders
+          - Implemented real-time video conferencing UI with WebRTC, Socket.io, and custom React hooks
+          - Built responsive component library with Tailwind CSS, shadcn/ui, and Radix UI primitives
+
+      - name: "[SAMAB](https://github.com/) - Water Transmission Monitoring Dashboard"
+        date:
+        start_date: 2022-01
+        end_date: present
+        location:
+        summary: Real-time IoT monitoring dashboard with Next.js and React Query
+        highlights:
+          - Integrated real-time IoT data visualization using React, Recharts, and D3.js with live data updates
+          - Implemented server-side rendering with Next.js for improved SEO and initial page load performance
+          - Built responsive dashboard with React Grid Layout and custom drag-and-drop components
+          - Developed real-time data streaming UI with WebSockets and React Query for cache management
+
+      - name: "[SAP](https://github.com/) - Faculty Research Portal"
+        date:
+        start_date: 2021-06
+        end_date: present
+        location:
+        summary: Research management system with Next.js and TypeScript
+        highlights:
+          - Architected scalable search interface using React with debounced input, infinite scroll, and virtual lists
+          - Implemented advanced filtering and sorting UI with React Hook Form and Zod validation
+          - Built comprehensive component library with Storybook and automatic documentation generation
+          - Optimized data fetching reducing initial load times from 3s to 200ms with Next.js ISR and SWR
+
+      - name: "[SATAK](https://github.com/) - Intelligent Consumption Detection"
+        date:
+        start_date: 2021-01
+        end_date: present
+        location:
+        summary: Computer vision dashboard with React and TensorFlow.js integration
+        highlights:
+          - Built React interface for real-time image processing using TensorFlow.js and Web Workers
+          - Implemented progressive image loading with lazy loading and blur-up placeholders
+          - Deployed containerized Next.js application using Docker with optimized production builds
+          - Designed responsive admin panel with React Admin and Material-UI components
+
+      - name: "[Fenjan](https://github.com/) - E-Learning Platform"
+        date:
+        start_date: 2020-06
+        end_date: present
+        location:
+        summary: Udemy-like educational platform with Next.js
+        highlights:
+          - Developed complex permission-based UI with React Context API and custom authorization hooks
+          - Built video player component with React Player, custom controls, and progress tracking
+          - Implemented content delivery interface with Next.js Image optimization and CDN integration
+          - Created subscription and payment UI with Stripe Elements and React hooks
+
+      - name: "[Decov](https://github.com/) - VR/AI Interior Design"
+        date:
+        start_date: 2023-06
+        end_date: present
+        location:
+        summary: AI-powered 3D visualization platform with React and Three.js
+        highlights:
+          - Built interactive 3D visualization using React Three Fiber and Drei for VR/AR experiences
+          - Implemented AI-powered image generation UI with loading states, error handling, and optimistic updates
+          - Optimized 3D rendering performance using React Suspense, lazy loading, and level-of-detail techniques
+          - Deployed micro-frontend architecture with Module Federation and independent Next.js applications
+
+    skills:
+      - label: Frontend Frameworks
+        details: React.js, Next.js 14, Remix, Gatsby, Astro, React Native
+      - label: JavaScript/TypeScript
+        details: TypeScript, JavaScript (ES6+), Babel, ESLint, Prettier, TSConfig
+      - label: State Management
+        details: Redux Toolkit, Zustand, Jotai, React Query, SWR, Context API, Recoil
+      - label: Styling & UI
+        details: Tailwind CSS, CSS Modules, Styled Components, Emotion, Sass/SCSS, shadcn/ui, Radix UI, Material-UI, Ant Design
+      - label: Build Tools
+        details: Webpack, Vite, Turbopack, esbuild, Rollup, SWC, Next.js compiler
+      - label: Testing
+        details: Jest, React Testing Library, Cypress, Playwright, Vitest, MSW (Mock Service Worker)
+      - label: Performance
+        details: Lighthouse, Web Vitals, React DevTools Profiler, Chrome DevTools, Bundle Analyzer
+      - label: 3D & Animation
+        details: Three.js, React Three Fiber, Framer Motion, GSAP, Lottie
+      - label: Data Visualization
+        details: D3.js, Recharts, Chart.js, Nivo, Plotly, Apache ECharts
+      - label: Forms & Validation
+        details: React Hook Form, Formik, Yup, Zod, react-select, react-datepicker
+      - label: Developer Tools
+        details: Git, GitHub Actions, Docker, Vercel, Netlify, Storybook, Chromatic
+      - label: APIs & Data
+        details: REST APIs, GraphQL, Apollo Client, tRPC, Axios, Fetch API, WebSockets
+
+    education:
+      - institution: Tabriz University
+        area: Computer Engineering
+        degree: Bachelor's
+        date:
+        start_date: 2019-10
+        end_date: 2024-01
+        location: East Azerbaijan
+        summary:
+        highlights:
+          - "GPA: 3.2/4.00"
+          - "Relevant Coursework: Data Structures & Algorithms, Web Development, Human-Computer Interaction, Computer Graphics, Software Engineering, Database Systems"
+
+    technical_expertise:
+      - bullet: "React Expertise: Advanced hooks patterns, custom hooks, performance optimization, component composition, render optimization, Context API, error boundaries"
+      - bullet: "Next.js Mastery: App Router, Server Components, Server Actions, ISR, SSG, SSR, middleware, image optimization, font optimization, route handlers"
+      - bullet: "Performance Optimization: Code-splitting, lazy loading, tree-shaking, bundle analysis, Web Vitals optimization, virtual scrolling, memoization strategies"
+      - bullet: "Testing: TDD methodology, unit testing, integration testing, E2E testing, visual regression testing, accessibility testing with axe-core"
+      - bullet: "Accessibility: WCAG 2.1 AA compliance, semantic HTML, ARIA attributes, keyboard navigation, screen reader optimization, focus management"
+      - bullet: "State Management: Redux patterns, normalized state, optimistic updates, cache invalidation, server state vs client state separation"
+      - bullet: "TypeScript: Advanced types, generics, utility types, type guards, discriminated unions, strict mode, type inference"
+      - bullet: "Architecture: Component-driven development, atomic design, micro-frontends, design systems, SOLID principles, clean architecture"
+
+design:
+  theme: engineeringresumes
+
+locale:
+  language: english
+
+settings:
+  current_date: "2026-01-30"
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/nima_parsa_cv.typ
+    pdf_path: rendercv_output/nima_parsa_cv.pdf
+    markdown_path: rendercv_output/nima_parsa_cv.md
+    html_path: rendercv_output/nima_parsa_cv.html
+    png_path: rendercv_output/nima_parsa_cv.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
