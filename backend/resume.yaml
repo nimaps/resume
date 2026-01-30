@@ -14,7 +14,7 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Backend engineer specializing in Django with 5+ years of experience building scalable, high-performance web applications. Proven expertise in Python ecosystem, REST APIs, database optimization, and microservices architecture. Led engineering teams and architected enterprise-grade permission systems, reducing query response times and establishing comprehensive testing cultures with 5000+ test cases.
+      - "Backend engineer specializing in Django with 7+ years of experience building scalable, high-performance web applications. Proven expertise in Python ecosystem, REST APIs, database optimization, and microservices architecture. Led engineering teams and architected enterprise-grade permission systems, reducing query response times and establishing comprehensive testing cultures with 5000+ test cases."
 
     experience:
       - company: Husan Co.
@@ -177,7 +177,7 @@ cv:
         location: East Azerbaijan
         summary:
         highlights:
-          - "GPA: 3.2/4.00"
+          - "GPA: 3.3/4.00"
           - "Relevant Coursework: Algorithms & Data Structures, Artificial Intelligence, Databases, Data Mining, Computer Networks, Operating Systems, Software Engineering"
 
     technical_expertise:
@@ -191,7 +191,7 @@ cv:
       - bullet: "Architecture: Microservices design, domain-driven design, SOLID principles, design patterns, scalable system architecture"
 
 design:
-  theme: classic
+  theme: engineeringresumes
 
 locale:
   language: english
