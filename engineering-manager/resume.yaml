@@ -14,39 +14,40 @@ cv:
   custom_connections:
   sections:
     summary:
-      - "Senior Backend Engineer specializing in Django with 6+ years of experience building scalable, high-performance web applications. Proven expertise in Python ecosystem, Django REST Framework, database optimization, and microservices architecture. Architected enterprise-grade permission systems, optimized query performance by eliminating N+1 issues, and built comprehensive test suites with 5000+ test cases achieving 90%+ code coverage."
+      - "Backend engineer specializing in Django with 7+ years of experience building scalable, high-performance web applications. Proven expertise in Python ecosystem, REST APIs, database optimization, and microservices architecture. Led engineering teams and architected enterprise-grade permission systems, reducing query response times and establishing comprehensive testing cultures with 5000+ test cases."
+
     experience:
       - company: Husan Co.
-        position: Senior Django Backend Engineer
+        position: Engineering Manager (Backend Focus)
         date:
         start_date: 2023-02
         end_date: present
         location: Remote
         summary:
         highlights:
-          - Architected robust permission system inspired by AWS IAM with dynamic policy support using Django and Django REST Framework
-          - Developed and maintained 400,000+ lines of Django/Python code across multiple enterprise applications
-          - Established comprehensive testing culture with 5000+ test cases using pytest, Django TestCase, and factory_boy
-          - Integrated Sentry error tracking with custom Django middleware, decreasing bug resolution time by 60%
-          - Optimized CI/CD workflows reducing build times by 95% through advanced Docker caching and parallel test execution
-          - Built scalable REST APIs serving millions of requests with Django REST Framework and Redis caching
+          - Led backend engineering teams comprising 15+ engineers across Django and Laravel projects
+          - Architected robust permission system inspired by AWS IAM with dynamic policy support using Django
+          - Reviewed 400,000+ lines of code including extensive Django/Python codebases
+          - Established comprehensive testing culture with 5000+ test cases across Django projects using pytest and Django TestCase
+          - Integrated Sentry with ChatOps Slack integration decreasing bug resolution time by 60%
+          - Optimized CI/CD workflows reducing build times by 95% through advanced Docker caching techniques
 
       - company: Husan Co.
-        position: Django Backend Engineer
+        position: Technical Lead - Backend
         date:
         start_date: 2021-02
         end_date: 2023-01
         location: Remote
         summary:
         highlights:
-          - Architected proxy service for ethical data collection from Google Scholar using Django REST Framework and Celery
-          - Eliminated N+1 queries through Django ORM optimization techniques (select_related, prefetch_related, annotate)
-          - Implemented comprehensive test-driven development with 90%+ code coverage using pytest and Django test framework
-          - Designed and deployed video conferencing infrastructure using LiveKit with Django backend and WebSocket integration
-          - Migrated backend from Node.js/Express to Django, improving performance by 40% and code maintainability
+          - Architected proxy service for ethical data collection from Google Scholar using Django REST Framework
+          - Led codebase refactoring eliminating N+1 queries using Django ORM optimization techniques (select_related, prefetch_related)
+          - Implemented test-driven development culture with comprehensive Django test suites
+          - Designed and deployed video conferencing infrastructure using LiveKit with Django backend integration
+          - Migrated backend from Node.js/Express to Django, improving performance and maintainability for SAP project
 
       - company: Lyons Global
-        position: Django Backend Engineer
+        position: Backend Engineer
         date:
         start_date: 2021-05
         end_date: 2023-01
@@ -54,12 +55,12 @@ cv:
         summary:
         highlights:
           - Developed LEO360® backend using Django and Django REST Framework for comprehensive digital health platform
-          - Engineered secure, HIPAA-compliant medical software with encrypted data storage and audit logging
-          - Built RESTful APIs with Django REST Framework featuring role-based access control and JWT authentication
-          - Deployed applications across multiple international markets with Django internationalization (i18n) and localization
+          - Engineered secure, scalable medical software solutions with HIPAA-compliant data handling
+          - Built RESTful APIs connecting patients, doctors, and administrators with role-based access control
+          - Deployed applications across multiple international markets (UAE, Turkey, Italy, US) with localization support
 
       - company: Husan Co.
-        position: Python Backend Developer
+        position: Full Stack Engineer (Backend Heavy)
         date:
         start_date: 2019-09
         end_date: 2021-01
@@ -67,9 +68,9 @@ cv:
         summary:
         highlights:
           - Optimized open-source Sakai LMS to handle 400+ concurrent users using Django caching strategies (Redis, Memcached)
-          - Implemented database query optimization, indexing strategies, and connection pooling for educational platforms
-          - Developed custom Django middleware for authentication, session management, and request/response processing
-          - Built complex backend logic for scheduling and calendar systems with Django timezone handling and Celery tasks
+          - Implemented database query optimization and indexing strategies for educational platforms
+          - Developed Django middleware for custom authentication and session management
+          - Built complex backend logic for scheduling and calendar systems with timezone handling
 
     projects:
       - name: "[Eiadati247](https://github.com/) - Telemedicine Platform"
@@ -176,7 +177,7 @@ cv:
         location: East Azerbaijan
         summary:
         highlights:
-          - "GPA: 3.2/4.00"
+          - "GPA: 3.3/4.00"
           - "Relevant Coursework: Algorithms & Data Structures, Artificial Intelligence, Databases, Data Mining, Computer Networks, Operating Systems, Software Engineering"
 
     technical_expertise:
