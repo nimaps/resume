@@ -1,0 +1,214 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Nima Parsa
+  headline: Django Backend Engineer
+  location: San Francisco, CA
+  email: nimaparsa.developer@gmail.com
+  phone: "+905395848405"
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: nima--parsa
+    - network: GitHub
+      username: nimaps
+  custom_connections:
+  sections:
+    summary:
+      - Backend engineer specializing in Django with 5+ years of experience building scalable, high-performance web applications. Proven expertise in Python ecosystem, REST APIs, database optimization, and microservices architecture. Led engineering teams and architected enterprise-grade permission systems, reducing query response times and establishing comprehensive testing cultures with 5000+ test cases.
+
+    experience:
+      - company: Husan Co.
+        position: Engineering Manager (Backend Focus)
+        date:
+        start_date: 2023-02
+        end_date: present
+        location: Remote
+        summary:
+        highlights:
+          - Led backend engineering teams comprising 15+ engineers across Django and Laravel projects
+          - Architected robust permission system inspired by AWS IAM with dynamic policy support using Django
+          - Reviewed 400,000+ lines of code including extensive Django/Python codebases
+          - Established comprehensive testing culture with 5000+ test cases across Django projects using pytest and Django TestCase
+          - Integrated Sentry with ChatOps Slack integration decreasing bug resolution time by 60%
+          - Optimized CI/CD workflows reducing build times by 95% through advanced Docker caching techniques
+
+      - company: Husan Co.
+        position: Technical Lead - Backend
+        date:
+        start_date: 2021-02
+        end_date: 2023-01
+        location: Remote
+        summary:
+        highlights:
+          - Architected proxy service for ethical data collection from Google Scholar using Django REST Framework
+          - Led codebase refactoring eliminating N+1 queries using Django ORM optimization techniques (select_related, prefetch_related)
+          - Implemented test-driven development culture with comprehensive Django test suites
+          - Designed and deployed video conferencing infrastructure using LiveKit with Django backend integration
+          - Migrated backend from Node.js/Express to Django, improving performance and maintainability for SAP project
+
+      - company: Lyons Global
+        position: Backend Engineer
+        date:
+        start_date: 2021-05
+        end_date: 2023-01
+        location: United States - Remote
+        summary:
+        highlights:
+          - Developed LEO360® backend using Django and Django REST Framework for comprehensive digital health platform
+          - Engineered secure, scalable medical software solutions with HIPAA-compliant data handling
+          - Built RESTful APIs connecting patients, doctors, and administrators with role-based access control
+          - Deployed applications across multiple international markets (UAE, Turkey, Italy, US) with localization support
+
+      - company: Husan Co.
+        position: Full Stack Engineer (Backend Heavy)
+        date:
+        start_date: 2019-09
+        end_date: 2021-01
+        location: Remote
+        summary:
+        highlights:
+          - Optimized open-source Sakai LMS to handle 400+ concurrent users using Django caching strategies (Redis, Memcached)
+          - Implemented database query optimization and indexing strategies for educational platforms
+          - Developed Django middleware for custom authentication and session management
+          - Built complex backend logic for scheduling and calendar systems with timezone handling
+
+    projects:
+      - name: "[Eiadati247](https://github.com/) - Telemedicine Platform"
+        date:
+        start_date: 2023-01
+        end_date: present
+        location:
+        summary: Django-based telemedicine platform with video conferencing and real-time features
+        highlights:
+          - Executed zero-downtime database migration from MySQL to PostgreSQL using Django migrations with real-time replication
+          - Refactored 20,000+ lines of Django code eliminating N+1 queries using select_related and prefetch_related
+          - Implemented scalable video conferencing infrastructure with Django channels for WebSocket support
+          - Built RESTful APIs with Django REST Framework for patient-doctor communication
+
+      - name: "[SAMAB](https://github.com/) - Water Transmission Monitoring System"
+        date:
+        start_date: 2022-01
+        end_date: present
+        location:
+        summary: IoT monitoring system with Django backend and TimescaleDB integration
+        highlights:
+          - Integrated IoT devices with Django backend using secure APN network authentication
+          - Implemented time-series database (TimescaleDB) integration with Django ORM for real-time monitoring
+          - Deployed ELK stack for comprehensive log aggregation with Django logging configuration
+          - Built RESTful APIs for MQTT protocol integration and real-time data streaming
+
+      - name: "[SAP](https://github.com/) - Faculty Research Portal"
+        date:
+        start_date: 2021-06
+        end_date: present
+        location:
+        summary: Research management system with Django backend and Celery task queue
+        highlights:
+          - Architected scalable proxy service using Django and Celery for asynchronous Google Scholar data collection
+          - Implemented rate limiting and retry mechanisms using Django middleware and decorators
+          - Built comprehensive REST API using Django REST Framework with OpenAPI documentation
+          - Optimized database queries reducing response times from 3s to 200ms
+
+      - name: "[SATAK](https://github.com/) - Intelligent Consumption Detection"
+        date:
+        start_date: 2021-01
+        end_date: present
+        location:
+        summary: Computer vision system with Django backend and TensorFlow integration
+        highlights:
+          - Built Django REST API for automated meter reading using neural networks with TensorFlow integration
+          - Implemented secure admin panel using Django's built-in authentication and authorization system
+          - Deployed containerized microservices architecture using Docker Swarm with Django services
+          - Designed PostgreSQL database schema with optimized indexing for image metadata
+
+      - name: "[Fenjan](https://github.com/) - E-Learning Platform"
+        date:
+        start_date: 2020-06
+        end_date: present
+        location:
+        summary: Udemy-like educational platform with Django backend
+        highlights:
+          - Developed custom permission system for dynamic policy support inspired by AWS IAM using Django permissions framework
+          - Built comprehensive REST API documentation using drf-spectacular
+          - Implemented content delivery system with Django storages and S3 integration
+          - Created subscription and payment processing system with Stripe API integration
+
+      - name: "[Decov](https://github.com/) - VR/AI Interior Design"
+        date:
+        start_date: 2023-06
+        end_date: present
+        location:
+        summary: AI-powered platform with Django backend and ML model integration
+        highlights:
+          - Built Django REST API for serving TensorFlow models with optimized inference endpoints
+          - Implemented MLOps pipelines using Celery for automated data integration and model training
+          - Optimized AI model inference by creating efficient Django views with caching strategies
+          - Deployed microservices architecture with Django services communicating via RabbitMQ
+
+    skills:
+      - label: Backend Frameworks
+        details: Django, Django REST Framework, FastAPI, Flask, Celery, Django Channels
+      - label: Python Ecosystem
+        details: Python, pytest, NumPy, Pandas, asyncio, SQLAlchemy, Pydantic
+      - label: Databases
+        details: PostgreSQL, MySQL, MariaDB, TimescaleDB, Redis, MongoDB, Django ORM optimization
+      - label: APIs & Protocols
+        details: REST, GraphQL, MQTT, WebSockets, gRPC, OpenAPI/Swagger
+      - label: Message Queues
+        details: RabbitMQ, Celery, Redis Queue, Kafka
+      - label: DevOps & Infrastructure
+        details: Docker, Docker Swarm, Kubernetes, GitLab CI, GitHub Actions, Terraform, Ansible
+      - label: Monitoring & Logging
+        details: ELK Stack, Grafana, Prometheus, Sentry, Django Debug Toolbar
+      - label: Web Servers
+        details: Nginx, Caddy, Apache, Gunicorn, uWSGI, Traefik
+      - label: Cloud & Storage
+        details: AWS (S3, EC2, RDS), Minio, Django Storages
+      - label: Testing
+        details: pytest, Django TestCase, unittest, factory_boy, Faker, coverage.py
+
+    education:
+      - institution: Tabriz University
+        area: Computer Engineering
+        degree: Bachelor's
+        date:
+        start_date: 2019-10
+        end_date: 2024-01
+        location: East Azerbaijan
+        summary:
+        highlights:
+          - "GPA: 3.2/4.00"
+          - "Relevant Coursework: Algorithms & Data Structures, Artificial Intelligence, Databases, Data Mining, Computer Networks, Operating Systems, Software Engineering"
+
+    technical_expertise:
+      - bullet: "Django Expertise: Advanced ORM optimization, custom middleware, authentication backends, Django admin customization, management commands, signals, template system"
+      - bullet: "Database Performance: Query optimization, indexing strategies, database migrations, connection pooling, query profiling with Django Debug Toolbar"
+      - bullet: "API Development: RESTful API design, Django REST Framework serializers, viewsets, permissions, throttling, pagination, filtering"
+      - bullet: "Testing: TDD methodology, unit testing, integration testing, pytest fixtures, mock objects, test coverage analysis"
+      - bullet: "Async & Background Tasks: Celery task queues, Django Channels for WebSockets, asyncio for concurrent operations"
+      - bullet: "Security: OWASP best practices, Django security middleware, CSRF protection, XSS prevention, SQL injection prevention, secure authentication"
+      - bullet: "Performance: Caching strategies (Redis, Memcached), database query optimization, lazy loading, eager loading, connection pooling"
+      - bullet: "Architecture: Microservices design, domain-driven design, SOLID principles, design patterns, scalable system architecture"
+
+design:
+  theme: classic
+
+locale:
+  language: english
+
+settings:
+  current_date: "2026-01-30"
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/nima_parsa_cv.typ
+    pdf_path: rendercv_output/nima_parsa_cv.pdf
+    markdown_path: rendercv_output/nima_parsa_cv.md
+    html_path: rendercv_output/nima_parsa_cv.html
+    png_path: rendercv_output/nima_parsa_cv.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
